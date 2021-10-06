@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="clip-path"></div>
+    <div class="container login-form-box">
+        <!-- <h1>Login</h1> -->
+        <form action="">  
+            <h1>Login</h1>         
+            <input type="email" class="email_input" placeholder="Email Id" required>          
+         
+            <input type="Password" class="Password_input" placeholder="Password" required>
+            
+            <input type="submit" name="" value="Login" class="login" />
+
+            <p class="signup-quote">DON'T HAVE AN ACCOUNT ? <span class="signup"><a href="">Sign Up</a></span> </p>
+            
+        </form>
+    </div>
+
+    <!-- <div class="container registration">
+        
+        <form action="">  
+            <h1>Registration</h1>         
+            <input type="email" class="email_input" placeholder="Email Id" required>          
+         
+            <input type="Password" class="Password_input" placeholder="Password" required>
+            
+            <input type="submit" name="" value="Login" class="login" />
+
+            <p class="signup-quote">DON'T HAVE AN ACCOUNT ? <span class="signup"><a href="">Sign Up</a></span> </p>
+            
+        </form>
+    </div> -->
+
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.1.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyDMiceoLNNnKA_Xv78sY_OrF_RbEiWqB4s",
+          authDomain: "learn-firebase-70419.firebaseapp.com",
+          projectId: "learn-firebase-70419",
+          storageBucket: "learn-firebase-70419.appspot.com",
+          messagingSenderId: "883396443932",
+          appId: "1:883396443932:web:954feea4658d8815f684d9",
+          measurementId: "G-MSZLT3ZB19"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+</html>
